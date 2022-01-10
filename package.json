@@ -1,28 +1,17 @@
 {
-  "name": "hello-node",
-  "version": "0.0.1",
-  "description": "A simple Node app built on fastify, instantly up and running.",
-  "main": "server.js",
+  "name": "voltree_banbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "voltree.js",
   "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "fastify": "^3.25.3",
-    "fastify-formbody": "^5.2.0",
-    "fastify-static": "^4.5.0",
-    "handlebars": "^4.7.7",
-    "point-of-view": "^5.0.0"
+    "start": "node voltree.js"
   },
   "engines": {
     "node": "12.x"
   },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-node"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aoi.js": "^4.6.0"
+  }
 }
